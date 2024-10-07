@@ -1,0 +1,36 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "ctrl+oem_102",
+		"command": "toggleVim"
+	},
+	{
+		"key": "ctrl+b",
+		"command": "workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+b",
+		"command": "-workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "shift+alt+left",
+		"command": "-editor.action.smartSelect.shrink",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+alt+right",
+		"command": "workbench.action.increaseViewSize"
+	},
+	{
+		"key": "shift+alt+left",
+		"command": "workbench.action.decreaseViewSize"
+	},
+	{
+		"key": "ctrl+shift+oem_102",
+		"command": "workbench.action.closeActiveEditor"
+	},
+	{
+		"key": "ctrl+f4",
+		"command": "-workbench.action.closeActiveEditor"
+	}
+]
