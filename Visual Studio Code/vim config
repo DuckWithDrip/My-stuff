@@ -1,0 +1,23 @@
+settings.json
+
+{
+	"vim.useSystemClipboard": true,
+	"editor.cursorSurroundingLines": 6,
+	"vim.highlightedyank.enable": true,
+	"vim.highlightedyank.color": "#4D3131", // hightlight color when using dark mode
+	// "vim.highlightedyank.color": "#A9DBFA", // hightlight color when using light mode
+	"vim.highlightedyank.duration": 400,
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": ["ü"],
+			"comment": "TODO: before should be 'ü' after I added eslint for custom formating",
+			"commands": ["editor.action.formatDocument"]
+		},
+		{
+			"before": ["ä"],
+			"after": ["z", "a"]
+		}
+	],
+    "editor.lineNumbers": "relative",
+  ...
+}
