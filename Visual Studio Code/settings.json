@@ -1,0 +1,35 @@
+{
+	"vim.useSystemClipboard": true,
+	"editor.cursorSurroundingLines": 6,
+	"vim.highlightedyank.enable": true,
+	"vim.highlightedyank.color": "#4D3131", // light mode: [#A9DBFA] dark mode: [#4D3131]
+	"vim.highlightedyank.duration": 400,
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": ["ä"],
+			"after": ["z", "a"]
+		}
+	],
+    "editor.lineNumbers": "relative",
+	
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "none",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "extensions.ignoreRecommendations": true,
+    "typescript.preferences.importModuleSpecifier": "project-relative",
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "js/ts.implicitProjectConfig.strictNullChecks": false,
+    "editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"workbench.layoutControl.enabled": false,
+	"breadcrumbs.enabled": false,
+	"editor.stickyScroll.enabled": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "Ayu Mirage Bordered",
+	"glassit.alpha": 235,
+	"update.mode": "manual",
+	"git.openRepositoryInParentFolders": "never",
+}
