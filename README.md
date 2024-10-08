@@ -1,2 +1,2 @@
-# My-stuff
-Stuff like configurations I use.
+# My settings
+Stuff like configurations I use on windows
